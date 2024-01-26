@@ -1,0 +1,58 @@
+body{
+    background-color: #2b2e56;
+}
+
+.container{
+    display: grid;
+    
+     gap: 10px;
+     padding: 30px;
+     grid-template-columns: repeat(4, 1fr );
+     margin-top: 100px;
+     margin-left: 20px;
+     margin-right: 20px;
+
+    }
+
+.box{
+    padding: 50px;
+}
+.yellow{
+    background-color:#fbb22f ;
+}
+
+.green{
+    background-color: #6dbe4f;
+    
+}
+
+.red{
+    background-color:#ec3437 ;
+
+}
+
+#box1{
+
+    grid-row: 1/4;
+}
+
+#box2{
+    grid-column: 2/4;
+}
+
+#box6{
+    grid-row:2/4 ;
+    grid-column: 4/5;
+}
+
+.css-grid{
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    text-align: center;
+    color: #f0f8ff;
+}
